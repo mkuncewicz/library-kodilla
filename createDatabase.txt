@@ -1,0 +1,7 @@
+CREATE DATABASE Library;
+
+CREATE table  users(id int AUTO_INCREMENT PRIMARY KEY, name VARCHAR(200), lastName VARCHAR(200), date_create DATE);
+CREATE table  rentals(id int AUTO_INCREMENT PRIMARY KEY, id_cope int, id_user int, rentel DATE, recovery DATE, status VARCHAR(200));
+CREATE table  products(id int AUTO_INCREMENT PRIMARY KEY, id_cat int, name VARCHAR(200),author VARCHAR(200),year int, rating int, type VARCHAR(200));
+CREATE table  copies(id int AUTO_INCREMENT PRIMARY KEY, id_product int, status VARCHAR(200));
+CREATE table  categories(id int AUTO_INCREMENT PRIMARY KEY, name VARCHAR(200));
