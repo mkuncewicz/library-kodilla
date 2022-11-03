@@ -26,5 +26,5 @@ public class User {
     private String lastName;
 
     @Column(name = "date_create")
-    private Date data_zalozenia;
+    private Date date_create;
 }
