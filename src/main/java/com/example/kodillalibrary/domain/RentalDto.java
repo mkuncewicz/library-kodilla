@@ -12,5 +12,6 @@ public class RentalDto {
     private int id_cope;
     private int id_user;
     private Date rentel;
+    private Date recovery;
     private String status;
 }
