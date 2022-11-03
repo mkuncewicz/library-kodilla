@@ -13,7 +13,7 @@ import java.util.Date;
 @NoArgsConstructor
 @AllArgsConstructor
 @Getter
-@Entity(name = "user")
+@Entity(name = "users")
 public class User {
     @Id
     @GeneratedValue
@@ -25,6 +25,6 @@ public class User {
     @Column(name = "lastName")
     private String lastName;
 
-    @Column(name = "data_zalozenia")
+    @Column(name = "date_create")
     private Date data_zalozenia;
 }
