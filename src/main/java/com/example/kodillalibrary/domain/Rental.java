@@ -18,14 +18,19 @@ public class Rental {
     @Id
     @GeneratedValue
     private int id;
+
     @Column(name = "id_cope")
     private int id_cope;
+
     @Column(name = "id_user")
     private int id_user;
+
     @Column(name = "rentel")
     private Date rentel;
+
     @Column(name = "recovery")
     private Date recovery;
+
     @Column(name = "status")
     private String status;
 }

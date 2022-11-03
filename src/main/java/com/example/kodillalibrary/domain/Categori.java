@@ -13,15 +13,12 @@ import javax.persistence.Id;
 @AllArgsConstructor
 @Getter
 @Entity(name = "products")
-public class copy {
+public class Categori {
 
     @Id
     @GeneratedValue
     private int id;
 
-    @Column(name = "id_productt")
-    private int id_cat;
-
-    @Column(name = "status")
-    private String status;
+    @Column(name = "name")
+    private String name;
 }
