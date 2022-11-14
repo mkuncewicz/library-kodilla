@@ -2,12 +2,12 @@ package com.example.kodillalibrary.mapper;
 
 import com.example.kodillalibrary.domain.User;
 import com.example.kodillalibrary.domain.UserDto;
-import org.springframework.stereotype.Service;
+import org.springframework.stereotype.Component;
 
 import java.util.List;
 import java.util.stream.Collectors;
 
-@Service
+@Component
 public class UserMapper {
 
     public User mapToUser(UserDto userDto){

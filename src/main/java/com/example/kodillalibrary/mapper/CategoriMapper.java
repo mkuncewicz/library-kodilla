@@ -2,12 +2,12 @@ package com.example.kodillalibrary.mapper;
 
 import com.example.kodillalibrary.domain.Categori;
 import com.example.kodillalibrary.domain.CategoriDto;
-import org.springframework.stereotype.Service;
+import org.springframework.stereotype.Component;
 
 import java.util.List;
 import java.util.stream.Collectors;
 
-@Service
+@Component
 public class CategoriMapper {
 
     public Categori mapToCategori(CategoriDto categoriDto){
