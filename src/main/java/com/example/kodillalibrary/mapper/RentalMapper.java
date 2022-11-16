@@ -1,7 +1,7 @@
 package com.example.kodillalibrary.mapper;
 
-import com.example.kodillalibrary.domain.Rental;
-import com.example.kodillalibrary.domain.RentalDto;
+import com.example.kodillalibrary.controller.domain.Rental;
+import com.example.kodillalibrary.controller.domain.RentalDto;
 import org.springframework.stereotype.Component;
 
 import java.util.List;

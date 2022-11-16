@@ -1,7 +1,7 @@
 package com.example.kodillalibrary.mapper;
 
-import com.example.kodillalibrary.domain.Copy;
-import com.example.kodillalibrary.domain.CopyDto;
+import com.example.kodillalibrary.controller.domain.Copy;
+import com.example.kodillalibrary.controller.domain.CopyDto;
 import org.springframework.stereotype.Component;
 
 import java.util.List;
@@ -21,7 +21,7 @@ public class CopyMapper {
     public CopyDto mapToCopyDto(Copy copy){
         return new CopyDto(
                 copy.getId(),
-                copy.getId_cat(),
+                copy.getId_product(),
                 copy.getStatus()
         );
     }

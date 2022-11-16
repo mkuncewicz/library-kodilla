@@ -1,7 +1,7 @@
 package com.example.kodillalibrary.mapper;
 
-import com.example.kodillalibrary.domain.User;
-import com.example.kodillalibrary.domain.UserDto;
+import com.example.kodillalibrary.controller.domain.User;
+import com.example.kodillalibrary.controller.domain.UserDto;
 import org.springframework.stereotype.Component;
 
 import java.util.List;

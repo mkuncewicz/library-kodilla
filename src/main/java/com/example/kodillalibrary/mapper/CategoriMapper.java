@@ -1,7 +1,7 @@
 package com.example.kodillalibrary.mapper;
 
-import com.example.kodillalibrary.domain.Categori;
-import com.example.kodillalibrary.domain.CategoriDto;
+import com.example.kodillalibrary.controller.domain.Categori;
+import com.example.kodillalibrary.controller.domain.CategoriDto;
 import org.springframework.stereotype.Component;
 
 import java.util.List;
