@@ -12,7 +12,7 @@ import javax.persistence.Id;
 @NoArgsConstructor
 @AllArgsConstructor
 @Getter
-@Entity(name = "products")
+@Entity(name = "categories")
 public class Categori {
 
     @Id

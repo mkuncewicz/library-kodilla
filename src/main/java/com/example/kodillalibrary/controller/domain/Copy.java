@@ -12,15 +12,15 @@ import javax.persistence.Id;
 @NoArgsConstructor
 @AllArgsConstructor
 @Getter
-@Entity(name = "products")
+@Entity(name = "copies")
 public class Copy {
 
     @Id
     @GeneratedValue
     private int id;
 
-    @Column(name = "id_productt")
-    private int id_cat;
+    @Column(name = "id_product")
+    private int id_product;
 
     @Column(name = "status")
     private String status;
