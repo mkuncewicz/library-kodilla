@@ -1,4 +1,4 @@
-package com.example.kodillalibrary.domain;
+package com.example.kodillalibrary.controller.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -11,5 +11,5 @@ public class UserDto {
     private int id;
     private String name;
     private String lastName;
-    private Date data_zalozenia;
+    private Date date_create;
 }
